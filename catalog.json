@@ -1,0 +1,30 @@
+{
+  "schema": 2,
+  "channel": "public",
+  "repo": "Ryzz3nn/xhub-releases",
+  "updated": "2026-11-14T23:36:03.980Z",
+  "apps": {
+    "xmirror": {
+      "id": "xmirror",
+      "name": "xMirror",
+      "description": "Mirror a window for screen sharing",
+      "kind": "nsis",
+      "version": "0.1.2",
+      "tag": "xmirror-v0.1.2",
+      "asset": "xMirror_0.1.2_x64-setup.exe",
+      "assetId": 749137401,
+      "assetApiUrl": "https://api.github.com/repos/Ryzz3nn/xhub-releases/releases/assets/749137401",
+      "downloadUrl": "https://github.com/Ryzz3nn/xhub-releases/releases/download/xmirror-v0.1.2/xMirror_0.1.2_x64-setup.exe",
+      "releaseUrl": "https://github.com/Ryzz3nn/xhub-releases/releases/tag/xmirror-v0.1.2",
+      "size": 2196535,
+      "sha256": "e609237d1013720660fb639f494ca77799e4c90d60eaa193bf7bb391fc29a87c",
+      "published": "2026-11-14T23:36:00.462Z",
+      "notes": "Follow alt-tab: mark the apps to switch between and the mirror follows you when you alt-tab to one. Other apps leave the mirror where it is. Picking a source by hand turns it off.",
+      "icon": "icons/xmirror.png",
+      "identifier": "com.ryzz3nn.xmirror",
+      "installDetect": {
+        "uninstallKey": "xMirror"
+      }
+    }
+  }
+}
