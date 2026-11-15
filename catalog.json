@@ -2,7 +2,7 @@
   "schema": 2,
   "channel": "public",
   "repo": "Ryzz3nn/xhub-releases",
-  "updated": "2026-11-15T00:01:59.794Z",
+  "updated": "2026-11-15T03:04:35.246Z",
   "apps": {
     "xmirror": {
       "id": "xmirror",
@@ -24,6 +24,28 @@
       "identifier": "com.ryzz3nn.xmirror",
       "installDetect": {
         "uninstallKey": "xMirror"
+      }
+    },
+    "xnote": {
+      "id": "xnote",
+      "name": "xnote",
+      "description": "Simple, fast text editor for Windows",
+      "kind": "nsis",
+      "version": "0.1.3",
+      "tag": "xnote-v0.1.3",
+      "asset": "xnote_0.1.3_x64-setup.exe",
+      "assetId": 749634546,
+      "assetApiUrl": "https://api.github.com/repos/Ryzz3nn/xhub-releases/releases/assets/749634546",
+      "downloadUrl": "https://github.com/Ryzz3nn/xhub-releases/releases/download/xnote-v0.1.3/xnote_0.1.3_x64-setup.exe",
+      "releaseUrl": "https://github.com/Ryzz3nn/xhub-releases/releases/tag/xnote-v0.1.3",
+      "size": 3017816,
+      "sha256": "98cec2d636dfc6908c5585a244044a5f048c1f25f67c682f8f489951af8c5e0c",
+      "published": "2026-11-15T03:04:32.172Z",
+      "notes": "Checklists can be ticked in Read mode",
+      "icon": "icons/xnote.png",
+      "identifier": "com.ryzz3nn.xnote",
+      "installDetect": {
+        "uninstallKey": "xnote"
       }
     }
   }
