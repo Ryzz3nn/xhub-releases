@@ -2,7 +2,7 @@
   "schema": 2,
   "channel": "public",
   "repo": "Ryzz3nn/xhub-releases",
-  "updated": "2026-11-15T03:04:35.246Z",
+  "updated": "2026-11-16T01:09:07.187Z",
   "apps": {
     "xmirror": {
       "id": "xmirror",
@@ -46,6 +46,28 @@
       "identifier": "com.ryzz3nn.xnote",
       "installDetect": {
         "uninstallKey": "xnote"
+      }
+    },
+    "xhub": {
+      "id": "xhub",
+      "name": "xHub",
+      "description": "Install, update and launch your x apps",
+      "kind": "nsis",
+      "version": "0.3.2",
+      "tag": "xhub-v0.3.2",
+      "asset": "xHub_0.3.2_x64-setup.exe",
+      "assetId": 752948004,
+      "assetApiUrl": "https://api.github.com/repos/Ryzz3nn/xhub-releases/releases/assets/752948004",
+      "downloadUrl": "https://github.com/Ryzz3nn/xhub-releases/releases/download/xhub-v0.3.2/xHub_0.3.2_x64-setup.exe",
+      "releaseUrl": "https://github.com/Ryzz3nn/xhub-releases/releases/tag/xhub-v0.3.2",
+      "size": 3340595,
+      "sha256": "1bc3f727072eb0a5dcf6496f64067afaf6c94499ad620c10a9b4f36dfd2b2481",
+      "published": "2026-11-16T01:09:03.981Z",
+      "notes": "First public xHub. Install, update and launch x apps from one place, no account needed.",
+      "icon": "icons/xhub.png",
+      "identifier": "com.ryzz3nn.xhub",
+      "installDetect": {
+        "uninstallKey": "xHub"
       }
     }
   }
