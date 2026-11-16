@@ -2,7 +2,7 @@
   "schema": 2,
   "channel": "public",
   "repo": "Ryzz3nn/xhub-releases",
-  "updated": "2026-11-16T01:10:59.957Z",
+  "updated": "2026-11-16T01:11:11.848Z",
   "apps": {
     "xmirror": {
       "id": "xmirror",
@@ -114,6 +114,28 @@
         "ade60f4241743dcfc2d49befef193496c213a6cde90b2b09e8cdd8eabff84c8f": "0.5.2",
         "f7b9262dd1d7979772ea77486f7e941a4501a7b424cbfa6043c1bc4a0e66a479": "0.6.0",
         "caa8a2eeb48ad461708482f706dcaa3202d05fadbff819360b16fcc15d737ccd": "0.6.1"
+      }
+    },
+    "xspace": {
+      "id": "xspace",
+      "name": "xSpace",
+      "description": "Find and clear what fills your disks",
+      "kind": "nsis",
+      "version": "0.2.3",
+      "tag": "xspace-v0.2.3",
+      "asset": "xSpace_0.2.3_x64-setup.exe",
+      "assetId": 752953630,
+      "assetApiUrl": "https://api.github.com/repos/Ryzz3nn/xhub-releases/releases/assets/752953630",
+      "downloadUrl": "https://github.com/Ryzz3nn/xhub-releases/releases/download/xspace-v0.2.3/xSpace_0.2.3_x64-setup.exe",
+      "releaseUrl": "https://github.com/Ryzz3nn/xhub-releases/releases/tag/xspace-v0.2.3",
+      "size": 3169070,
+      "sha256": "ecfcbe49f6617c3fa2de5f304b5eb9e378fb82fa07150d484ed7a7675e7780b4",
+      "published": "2026-11-16T01:11:08.468Z",
+      "notes": "xSpace 0.2.3",
+      "icon": "icons/xspace.png",
+      "identifier": "com.ryzz3nn.xspace",
+      "installDetect": {
+        "uninstallKey": "xSpace"
       }
     }
   }
