@@ -2,7 +2,7 @@
   "schema": 2,
   "channel": "public",
   "repo": "Ryzz3nn/xhub-releases",
-  "updated": "2026-11-16T01:09:07.187Z",
+  "updated": "2026-11-16T01:10:59.957Z",
   "apps": {
     "xmirror": {
       "id": "xmirror",
@@ -68,6 +68,52 @@
       "identifier": "com.ryzz3nn.xhub",
       "installDetect": {
         "uninstallKey": "xHub"
+      }
+    },
+    "xtaskmanage": {
+      "id": "xtaskmanage",
+      "name": "xTaskManage",
+      "description": "Native Windows task manager with usage tracking",
+      "kind": "portable",
+      "version": "0.6.1",
+      "tag": "v0.6.1",
+      "asset": "xTaskManage.exe",
+      "assetId": 745993460,
+      "assetApiUrl": "https://api.github.com/repos/Ryzz3nn/xtaskmanage-releases/releases/assets/745993460",
+      "downloadUrl": "https://github.com/Ryzz3nn/xtaskmanage-releases/releases/download/v0.6.1/xTaskManage.exe",
+      "releaseUrl": "https://github.com/Ryzz3nn/xtaskmanage-releases/releases/tag/v0.6.1",
+      "size": 15023104,
+      "sha256": "caa8a2eeb48ad461708482f706dcaa3202d05fadbff819360b16fcc15d737ccd",
+      "published": "2026-11-14T02:19:58Z",
+      "notes": "xTaskManage 0.6.1",
+      "icon": "icons/xtaskmanage.png",
+      "identifier": "com.ryzz3nn.xtaskmanage",
+      "installDetect": {
+        "portablePath": "%LOCALAPPDATA%\\Programs\\xTaskManage\\xTaskManage.exe",
+        "runValue": "xTaskManage",
+        "processName": "xTaskManage.exe",
+        "startMenuLink": "TaskManager (xTaskManage).lnk",
+        "versionArg": "--version",
+        "readOnlyRoots": [
+          "%ProgramFiles%\\xTaskManage"
+        ]
+      },
+      "knownVersions": {
+        "9d61b8210e52ff1404689c4c25208f685c974eb0bcff84204427e9996189f8f7": "0.2.0",
+        "f44f1becabecbd3ae7dec54a45abdf1211b2ef1cff3239c177955da432ff839f": "0.2.1",
+        "211d10268cde4818654089b9128f8e97d509a4c0f200373a3460f4c5543539a5": "0.2.2",
+        "9da47fd40c96e45ea0ed1c3dd4c82057ecd9be11220043ae3084f0967cd2daf1": "0.2.3",
+        "32a8b346086ad6ded407f6202be1df3d326d784621ce5973f0eb81050b502ec6": "0.3.0",
+        "986be948ab4bc12b03c91b18207faa88f44db7a981b19594af62bc2282d65a56": "0.3.1",
+        "6663acce6aef4a410577fcef3b30cfa362193e634b07c697caa6f52365542f15": "0.3.2",
+        "da6558802e6dad1c65486b13b01a25e4009a36417994c49c31472f431779bd60": "0.3.3",
+        "232ad24fa8492ac0a3ec1d8375ff5beeda6b7b212fba458c699b5f67c51ce26f": "0.4.0",
+        "248520053d2646b2581c1f8323c3aeee05ac4bb2a4ba8eb7215eb822917378b9": "0.4.1",
+        "49344692a52b603be6c6b9fa821ebda111a7f9fbc8f7ad5d76d394ff90a5ca20": "0.5.0",
+        "bb54bfd155539703f4a452d1f58d98c2b4a6711f34bf708537aa5a373597fa9f": "0.5.1",
+        "ade60f4241743dcfc2d49befef193496c213a6cde90b2b09e8cdd8eabff84c8f": "0.5.2",
+        "f7b9262dd1d7979772ea77486f7e941a4501a7b424cbfa6043c1bc4a0e66a479": "0.6.0",
+        "caa8a2eeb48ad461708482f706dcaa3202d05fadbff819360b16fcc15d737ccd": "0.6.1"
       }
     }
   }
